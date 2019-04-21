@@ -30,7 +30,7 @@ private Boolean status = true;
 
         if (status) {
             FirstFragment firstFragment = new FirstFragment();
-            fragmentTransaction.add(R.id.fragmentContainer,firstFragment);
+            fragmentTransaction.replace(R.id.fragmentContainer,firstFragment);
             fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();
             btnFragment.setText("Load Second Fragment");
@@ -38,7 +38,7 @@ private Boolean status = true;
 
         } else {
             SecondFragment secondFragment = new SecondFragment();
-            fragmentTransaction.add(R.id.fragmentContainer,secondFragment);
+            fragmentTransaction.replace(R.id.fragmentContainer,secondFragment);
             fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();
             btnFragment.setText("Load First Fragment");

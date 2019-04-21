@@ -1,4 +1,4 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="400dp"
@@ -12,7 +12,8 @@
         android:gravity="center"
         android:background="#009900"
         android:textColor="#ffffff"
-        android:textSize="25sp"
+
         />
 
-</FrameLayout>
+
+</LinearLayout>

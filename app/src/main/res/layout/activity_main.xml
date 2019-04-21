@@ -10,19 +10,19 @@
 
 
     <Button
-        android:id="@+id/btnFragement"
+        android:id="@+id/btnFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Load Fragment"
+        android:text="Load First Fragment"
         android:layout_margin="25dp"
         android:textColor="#2eb82e"
-        android:textSize="25sp"
+        android:textSize="20sp"
         />
 
     <RelativeLayout
         android:id="@+id/fragmentContainer"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="400dp"
         >
 
     </RelativeLayout>
